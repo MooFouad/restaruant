@@ -1,0 +1,71 @@
+/* 
+nav bg : #3b3b42
+btn bd : #f9c56a
+*/
+/* nav bar */
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#nav{
+    background:rgba(37, 36, 36, 0.7);
+}
+.logo{
+    padding-left: 30px;
+}
+#navbarNav ul li a{
+    color: white;
+}
+#img{
+    background-image: url(./img/bg2.png);
+    background-size: cover;
+    height: 650px;
+}
+#img h1{
+    padding-top: 400px;
+}
+/* end slide */
+/* start about us */
+.p1{
+    border-bottom: 2px solid #f9c56a;
+}
+/* start special */
+#bg-img2{
+    background-image: url(img/bg3.png);
+    background-size: cover;
+    height: 750px;
+}
+/* form */
+#btn1{
+    background-color: #f9c56a;
+    color: white;
+    border: none;
+    font-size: larger;
+}
+#p-form{
+    border-bottom: 4px dashed #777;
+}
+/* featuers */
+.featuers{
+    background-image: url(img/bg4.png);
+    background-size: cover;
+    height: 800px;
+}
+.cont-card{
+    display: flex;
+    justify-content:space-around;
+}
+
+/* menu */
+.ul2 a{
+    font-size: 20px;
+}
+.ul2 li{
+    padding: 0px 20px;
+}
+
+
+
+
